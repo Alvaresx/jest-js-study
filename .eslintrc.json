@@ -10,7 +10,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "quotes": [2, "double", { "avoidEscape": true }]
+        "quotes": [2, "double", { "avoidEscape": true }],
+        "no-console": "off"
     },
     "overrides": [
         {
