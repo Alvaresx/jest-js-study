@@ -1,6 +1,4 @@
-function sum(a, b) {
-  return a + b;
-}
+import sum from "../utils/sum";
 
 afterAll(() => {
   console.log("Fui executado após todos os testes!");

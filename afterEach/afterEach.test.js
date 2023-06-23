@@ -1,6 +1,4 @@
-function sum(a, b) {
-  return a + b;
-}
+import sum from "../utils/sum";
 
 afterEach(() => {
   console.log("Fui executado aqui após o teste do describe ser executado!");
