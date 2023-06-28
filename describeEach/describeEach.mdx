@@ -1,0 +1,12 @@
+DescribeEach
+
+- É usado quando você precisa executar a mesma estrutura de testes mas com dados diferentes.
+
+- Com ele é possível passar os diferentes dados como variáveis e os testes serem escritos uma única vez.
+
+- Pode ser usado da seguinte forma: describe.each(tabela)(nome, função, timeout), onde:
+
+  - Tabela: é um array de arrays, com os valores que serão passados como parâmetros para a função do describe.
+  - Nome: o nome que descreve o describe.
+  - Função: a função que contém os testes a serem executados e que recebe como parâmetro os valores da tabela.
+  - Timeout: um valor opcional, em milissegundos. Seu valor default é 5 segundos.
