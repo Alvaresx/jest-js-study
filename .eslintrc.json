@@ -12,12 +12,7 @@
   "rules": {
     "quotes": [2, "double", { "avoidEscape": true }],
     "no-console": "off",
-    "comma-dangle": [
-      "error",
-      {
-        "functions": "never"
-      }
-    ]
+    "comma-dangle": 0
   },
   "overrides": [
     {
